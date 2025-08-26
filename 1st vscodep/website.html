@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="foodstyle.css" >
+    <title>Responsive Food Delivery Services</title>
+</head>
+ <body>
+    <!--sidebar-->
+    <div class="sidebar">
+          <!-- logo-->
+         <h1 class="logo">FoodTime</h1>
+         <!--list of menu -->
+          <div class="sidebar-menus">
+                <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+                <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+                <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+                <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+                <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact us</a>
+                <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+           </div>
+         <div class="sidebar-logout">
+             <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+         </div>
+     </div>  
+
+    <!--main-->
+    <div class="main">
+        <!--main navbar-->
+        <div class="main-navbar">
+            <!--menu when appear on mobile version-->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <!--search bar-->
+            <div class="search">
+                <input type="text" placeholder="Search for food, restaurants, etc.">
+                <button class="search-btn"> Search</button>
+            </div>
+           
+        <!--profile icon-->
+          <div class="profile">
+              <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+             <a class="user" href="#"><ion-icon name="person-circle-outline"></ion-icon></a>
+           </div>
+        </div>  
+        <!--main highlight-->
+     <div class="main-highlight">
+            <!--title section and arrow-->
+            <div class="main-header">
+                  <h2 class="main-title"> Recommendations</h2>
+                  <div class="main-arrow">
+                    <ion-icon class="back-menus" name="chevron-back-outline"></ion-icon>
+                    <ion-icon class="next-menus" name="chevron-forward-outline"></ion-icon>
+                  </div> 
+               </div>
+            <!--highlight menu-->
+            <div class="highlight-wrapper">
+                 <div class="highlight-card">
+                    <img class="highlight-img" src="istockphoto-1469228227-612x612.jpg" alt="highlight">
+                    <div class="highlight-desc">
+                        <h4> Fresh Salad</h4>
+                        <p>100.00rs</p>
+                    </div>
+                </div>
+                 <div class="highlight-card">
+                    <img class="highlight-img" src="red-sauce-pasta-1.webp" alt="highlight">
+                    <div class="highlight-desc">
+                        <h4> Red Sauce Pasta</h4>
+                        <p>250.00rs</p>
+                    </div>
+                 </div>
+                 <div class="highlight-card">
+                    <img class="highlight-img" src="images.jpeg" alt="highlight">
+                    <div class="highlight-desc">
+                        <h4>Fresh Sando</h4>
+                        <p>150.00rs</p>
+                    </div>
+                 </div>
+                <div class="highlight-card">
+                    <img class="highlight-img" src="istockphoto-161170090-612x612.jpg" alt="highlight">
+                    <div class="highlight-desc">
+                        <h4> Pancakes</h4>
+                        <p>200.00rs</p>
+                    </div>
+                 </div>
+                <div class="highlight-card">
+                        <img class="highlight-img" src="mojito.jpeg" alt="highlight">
+                        <div class="highlight-desc">
+                            <h4> Fresh Mojito</h4>
+                            <p>120.00rs</p>
+                </div>
+             </div>
+          </div>
+        <!--main menus-->
+        <div class="main-menus">
+            <div class="menu-filter">
+               <h2 class="main-title">Menu<br> Category</h2>
+               <div class="main-arrow">
+                   <ion-icon class="back-menus-filter" name="chevron-back-outline"></ion-icon>
+                   <ion-icon class="next-menus-filter" name="chevron-forward-outline"></ion-icon>
+               </div>
+            </div>
+       
+      
+        <div class="filter-wrapper">  
+            <div class="filter-card">
+            <div class="filter-icon">
+               <ion-icon class="filter" name="restaurant-outline"></ion-icon>
+             </div>
+          <p>All Menus</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon class="filter" name="pizza-outline"></ion-icon>
+            </div>
+            <p>Pizza</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon class="filter" name="fast-food-outline"></ion-icon>
+            </div>
+            <p>Burger</p>
+        </div>
+        
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon class="filter" name="ice-cream-outline"></ion-icon>
+            </div>
+            <p>Desserts</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon class="filter" name="wine-outline"></ion-icon>
+            </div>
+            <p>Drinks</p>
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon class="filter" name="fast-food-outline"></ion-icon>
+            </div>
+            <p>Burger</p>
+        </div>
+          <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon class="filter" name="restaurant-outline"></ion-icon>
+            </div>
+            <p>All Menus</p>               
+          </div>
+          <div class="filter-card">
+            <div class="filter-icon">
+                <ion-icon class="filter" name="fish-outline"></ion-icon>
+            </div>
+            <p>Sea Food</p>               
+          </div>
+       </div>
+    </div>   
+
+<div class="divider"></div>
+
+ <div class="main-detail">
+    <h2 class="main-title">Choose Order</h2>
+    <div class="detail-wrapper">
+        <div class="detail-card">
+            <img class="detail-img" src="Paneer-makhani-scaled.webp" alt="detail">
+            <div class="detail-disc">
+                <div class="detail-name">
+                <h4>Paneer Butter Masala</h4>
+                <p class="detail-sub">Paneer Butter masala made from fresh vegetables and paneer.</p>
+                 <p class="detail-price">250.00rs</p>
+             </div>
+             <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+          </div>
+        </div>
+            <div class="detail-card">
+                <img class="detail-img" src="biryani.jpeg" alt="detail">
+                <div class="detail-disc">
+                    <div class="detail-name">
+                    <h4>Chicken Biryani</h4>
+                    <p class="detail-sub">Chicken Biryani made from fresh vegetables and chicken.</p>
+                     <p class="detail-price">250.00rs</p>
+                 </div>
+                 <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+               </div>
+            </div>
+                <div class="detail-card">
+                    <img class="detail-img" src="Chole-Bhature.jpg" alt="detail">
+                    <div class="detail-disc">
+                        <div class="detail-name">
+                        <h4>Chole Bhatture</h4>
+                        <p class="detail-sub">Chole Bhatture made from fresh vegetables .</p>
+                         <p class="detail-price">250.00rs</p>
+                     </div>
+                     <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+        
+                    </div>
+                </div>
+                    <div class="detail-card">
+                        <img class="detail-img" src="dosa.jpeg" alt="detail">
+                        <div class="detail-disc">
+                            <div class="detail-name">
+                            <h4>Dosa</h4>
+                            <p class="detail-sub">Dosa made from fresh vegetables</p>
+                             <p class="detail-price">100.00rs</p>
+                         </div>
+                         <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                        </div>
+                    </div>
+                        <div class="detail-card">
+                            <img class="detail-img" src="idli.jpeg" alt="detail">
+                            <div class="detail-disc">
+                                <div class="detail-name">
+                                <h4>Idli</h4>
+                                <p class="detail-sub">Freshly made Idli</p>
+                                 <p class="detail-price">75.00rs</p>
+                             </div>
+                             <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--aded div-->
+                <!--footer-->
+    <div class="footer">
+        <p>© 2023 FoodTime. All rights reserved.</p>
+        <p>Made with ❤️ by Anjali</p>
+    </div>
+
+    </div>    
+    
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="food.js"></script>
+</html>
